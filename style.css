@@ -1,3 +1,9 @@
+header {
+	background-color: rgba(0, 0, 0, 0.0);
+
+}
+
+
 body {
 	padding: 0;
 	margin: 0;
@@ -23,7 +29,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #4B98E7;
+	/*background-color: #4B98E7;*/
 	position: fixed;
   	top: 0;
   	width: 100%;
@@ -33,19 +39,19 @@ ul {
 li {
 	display: inline;
 	float: left;
-	border-right: 1px solid #bbb;
+	/*border-right: 1px solid #bbb;*/
 }
 
 
 li:last-child {
   	border-right: none;
-  	border-left:1px solid #bbb;
+  	/*border-left:1px solid #bbb;*/
 }
 
 li a {
 	display: block;
 	padding: 8px;
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-family: 'courier new', sans-serif;
 }
